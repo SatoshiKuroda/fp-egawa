@@ -1,0 +1,573 @@
+* {
+	margin: 0;
+	padding: 0;
+    min-height:0;
+    min-width : 0;
+}
+body, html, main {
+	/* important */
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: justify;
+	box-sizing: border-box;
+}
+header {
+	margin-bottom: 5.5em;
+}
+.topTel {
+	text-align: right;
+	padding: 2% 4%;
+	color: #544b43;
+}
+.top {
+	width: 100%;
+	background: url(../img/top.png);
+	background-position:center center;
+	background-size: 100% auto;
+}
+.top article {
+	width: 50%;
+	padding: 4% 0;
+}
+.top section {
+	padding: 5%;
+	text-align: center;
+}
+.top section h1 {
+	color: #544b43;
+}
+.top section p {
+	font-weight: bold;
+	color: #544b43;
+}
+.top section .sabTitle{
+	margin-top: 2em;
+}
+nav ul {
+	width: 60%;
+    margin: auto;
+	display: flex;
+	justify-content: center;
+	border-bottom: solid 2px #f2ba8c;
+}
+nav ul li {
+	list-style: none;
+	padding: 10px 25px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #544b43;
+}
+
+
+/*all setting*/
+.top-main h2 {
+	text-align: center;
+	color: #544b43;
+	margin-top: 2.5em;
+}
+
+
+/*top-about css*/
+.about-content {
+   background: -webkit-linear-gradient(#FFF,#fef3f0,#fef3f0,#fef3f0);
+   background: -o-linear-gradient(#FFF,#fef3f0,#fef3f0.#fef3f0);
+   background: linear-gradient( #FFF,#fef3f0,#fef3f0,#fef3f0);
+}
+.about-con {
+	width: 70%;
+	margin: 1em auto 0;
+	display: flex;
+	align-items: center;
+	align-self: center;
+	padding: 5% 0 5%;
+}
+.about-con .left {
+	width: 35%;
+}
+.about-con .left img {
+	width: 100%;
+}
+.about-con section {
+	width: 65%;
+}
+.about-con section h3{
+	text-align: center;
+	margin:0 auto 1em;
+	border-bottom: dashed 1.5px #e0883f;
+	width: 90%;
+	color: #544b43;
+}
+.about-con-flex {
+	display: flex;
+	align-items: center;
+	padding: 1em 0;
+}
+.about-con-flex h4 {
+	text-align: center;
+	width: 33%;
+	margin: auto;
+	color: #544b43;
+	font-size: 14px;
+}
+.about-con-flex img {
+	width: 13%;
+}
+.about-con-flex ul {
+	padding: 0;
+	list-style: none;
+	width: 33%;
+	margin: auto;
+	font-size: 14px;
+}
+.about-con-flex ul li {
+	padding: 1.5px 0;
+	color: #544b43;
+	font-weight: bold;
+}
+.about-text {
+	text-align: center;
+	color: #544b43;
+	font-size: 14px;
+	padding: 1em 0 0 0;
+	line-height: 170%;
+}
+
+
+
+/*top-flow css*/
+.flow-con {
+	background-color: #fffdeb;
+	margin: 1em 0 0 0;
+	padding: 5% 0 5%;
+}
+.flow-con-flex {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+}
+.flow-con-flex .left {
+	width: 65%;
+}
+.flow-con-flex  img {
+	width: 33%;
+   margin: 3% 0;
+}
+.step {
+	background-color: #fff;
+	border: solid 1px #fff;
+	border-radius: 50%;
+	width: 15%;
+	padding: 5px 6px;
+	margin: 0 1em;
+	text-align: center;
+}
+.step p.step-num {
+	border: dashed 1px #e2cf76;
+	border-radius: 50%;
+	padding: 7px 3px;
+	color: #e5bc0e;
+	font-weight: bold;
+}
+.flow-text-con {
+	display: flex;
+	align-self: center;
+	align-items: center;
+	padding: 0.5em 0;
+}
+.flow-text-con p {
+	color: #544b43;
+	font-size: 14px;
+	font-weight: bold;
+}
+.flow-text-con .fa, .far, .fas {
+	color: #e5bc0e;
+	width: 23%;
+	text-align: center;
+
+}
+.flow-text {
+	color: #544b43;
+	font-size: 14px;
+	text-align: center;
+	margin: 2em 0 0 0;
+}
+
+
+/*top-seminar css*/
+.seminar-con {
+	background-color: #fff1e6;
+	margin: 1em 0 0 0;
+	padding: 5% 0 5%;
+}
+.seminar-con-flex {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+}
+.seminar-con-flex img {
+	width: 85%;
+}
+.seminar-con-flex section {
+	width: 60%;
+}
+.seminar-con-flex section h3 {
+	color: #544b43;
+	text-align: center;
+}
+.seminar-con-flex section table {
+	margin: 2em 0 0.5em;
+	width: 100%;
+	border-collapse:collapse
+}
+.seminar-con-flex section table tr {
+	border-bottom: solid 1px #f2ba8c;
+}
+.seminar-con-flex section table th{
+	color: #544b43;
+	font-size: 14px;
+	padding: 0.5% 0;
+	vertical-align: top;
+	width: 20%;
+	text-align: center;
+}
+.seminar-con-flex section table td {
+	color: #544b43;
+	font-size: 14px;
+	padding: 0.5% 0 ;
+	width: 80%;
+}
+.seminar-con-flex p {
+	text-align: right;
+	color: #544b43;
+	font-size: 14px;
+}
+p.seminar-text {
+	text-align: center;
+	margin-top: 3em;
+}
+
+/*top-plofle css*/
+.profile-con {
+	background-color: #fffdeb;
+	margin: 1em 0 0 0;
+	padding: 5% 0 5%;
+}
+.profile-con-flex {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+}
+.profile-con-flex section {
+	width: 50%;
+	margin: auto;
+}
+.profile-con-flex .right {
+	width: 40%;
+	text-align: center;
+}
+.profile-con-flex section h3 {
+	text-align: right;
+	border-bottom: solid 2px #efc859;
+	margin-bottom: 2em;
+	color: #544b43;
+}
+.profile-con-flex section p {
+	color: #544b43;
+	font-size: 14px;
+	line-height: 170%;
+}
+p.profile-text {
+	text-align: right;
+	margin-top: 2em;
+}
+
+footer {
+	padding: 2em 0 4em;
+	text-align: center;
+	color: #544b43;
+}
+.footer-tel {
+	font-size: 14px;
+}
+.footer-tel img {
+	margin: 0 0.5em;
+}
+.footer-text {
+	margin-top: 2em;
+	color: #544b43;
+	font-size: 12px;
+}
+
+
+/*page flow css*/
+.flow {
+	background: -webkit-linear-gradient(#FFF,#fefceb,#fefceb,#fefceb);
+   background: -o-linear-gradient(#FFF,#fefceb,#fefceb.#fefceb);
+   background: linear-gradient( #FFF,#fefceb,#fefceb,#fefceb);
+}
+.flow h2 {
+	text-align: center;
+	color: #544b43;
+}
+.flow-main-content {
+	width: 70%;
+	margin: auto;
+	padding: 5% 0 5%;
+	}
+.flow-flex {
+	display: flex;
+	align-items: center;
+	align-self: center;
+}
+.flow-flex section {
+	width: 70%;
+	margin: auto;
+}
+.flow-flex .sectionFlow h3 {
+	text-align: right;
+    color: #544b43;
+    margin-bottom: 2em;
+    width: 75%;
+}
+.flow-flex-text {
+	display: flex;
+	align-items: flex-start;
+	margin: 2em auto;
+}
+.flow-flex-text .text {
+	width: 100%;
+}
+.flow-flex-text .text h4 {
+	color: #544b43;
+	font-size: 14px;
+	border-bottom: solid #ddb81b 1px ;
+	margin-bottom: 0.5em;
+}
+.flow-flex-text .step {
+}
+.flow-arrow {
+	width: 60%;
+    text-align: right;
+}
+.flow-flex-text .text p {
+	color: #544b43;
+	font-size: 14px;
+}
+.flow-flower {
+	width: 30%;
+	text-align: center;
+}
+.flow-flower img {
+	width: 100%;
+}
+.flow .sectionPrice {
+	margin-top: 4em;
+}
+.flow .sectionPrice h3 {
+	text-align: center;
+    color: #544b43;
+    margin-bottom: 2em;
+}
+
+/*page seminar css */
+.seminar {
+   background: -webkit-linear-gradient(#FFF,#fef3f0,#fef3f0,#fef3f0);
+   background: -o-linear-gradient(#FFF,#fef3f0,#fef3f0.#fef3f0);
+   background: linear-gradient( #FFF,#fef3f0,#fef3f0,#fef3f0);
+}
+.seminar h2 {
+	text-align: center;
+	color: #544b43;
+}
+.seminar-main-content {
+	width: 70%;
+	margin: auto;
+	padding: 5% 0 6%;
+	display: flex;
+	align-items: center;
+	align-self: center;
+}
+.semi-con-text {
+	width: 70%;
+	margin: auto;
+}
+.semi-con-text h3 {
+	color: #544b43;
+	font-size: 16px;
+	margin-bottom: 2em;
+}
+.semi-con-text ul {
+	list-style: none;
+	padding: 0;
+	color: #544b43;
+	font-size: 14px;
+	margin-bottom: 2em;
+}
+.semi-con-text ul li {
+	color: #e2733b;
+	font-size: 14px;
+}
+.semi-con-text li:before {
+	content: '●';
+	color: #544b43;
+}
+.semi-con-text p {
+	color: #544b43;
+	font-size: 14px;
+}
+.semi-con-text .orenge {
+	color: #e2733b;
+}
+.semi-con-img {
+	width: 30%;
+	margin-left: -6em;
+}
+.semi-con-img img {
+	width: 90%;
+}
+
+.seminar-new {
+	width: 70%;
+	margin: 2em auto;
+	display: flex;
+	padding: 0 0 6%;
+}
+.seminar-new-text {
+	width: 75%;
+}
+.seminar-new-text h3 {
+	color: #544b43;
+	font-size: 16px;
+	text-align: center;
+}
+.seminar-new-text table {
+	margin: 2em 0 0.5em;
+	width: 100%;
+	border-collapse:collapse
+}
+.seminar-new-text table tr {
+	border-bottom: solid 1px #f2ba8c;
+}
+.seminar-new-text table th{
+	color: #544b43;
+	font-size: 14px;
+	padding: 0.5% 0;
+	vertical-align: top;
+	width: 20%;
+	text-align: center;
+}
+.seminar-new-text table td {
+	color: #544b43;
+	font-size: 14px;
+	padding: 0.5% 0 ;
+	width: 80%;
+}
+.seminar-new-text p {
+	text-align: right;
+	color: #544b43;
+	font-size: 14px;
+}
+.seminar-nwe-img {
+	width: 25%;
+	margin: auto;
+}
+.seminar-nwe-img img {
+	width: 92%;
+}
+
+
+/*pege profle css*/
+.main-prof {
+	background: -webkit-linear-gradient(#FFF,#fefceb,#fefceb,#fefceb);
+   background: -o-linear-gradient(#FFF,#fefceb,#fefceb.#fefceb);
+   background: linear-gradient( #FFF,#fefceb,#fefceb,#fefceb);
+}
+.main-prof h2 {
+	text-align: center;
+	color: #544b43;
+}
+.main-prof-con {
+	display: flex;
+	align-self: flex-start;
+	align-items: center;
+	width: 70%;
+	margin: auto;
+	padding: 5% 0 5%;
+}
+.main-prof-con section {
+	width: 50%;
+	margin: auto;
+}
+.main-prof-con section h3 {
+	color: #544b43;
+	font-size: 18px;
+	text-align: right;
+	margin-bottom: 2em;
+}
+.main-prof-con section p {
+	color: #544b43;
+	font-size: 14px;
+}
+.main-prof-con .right {
+	width: 25%;
+	margin: auto;
+}
+.teach {
+	width: 70%;
+	margin: 0 auto 3.5em;
+}
+.teach h3 {
+	color: #544b43;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 2em;
+}
+.teach ul {
+	padding: 0;
+	list-style: none;
+	width: 45%;
+	margin: auto;
+}
+.teach ul li {
+	color: #544b43;
+	font-size: 14px;
+}
+
+.job {
+	width: 70%;
+	margin: auto;
+	padding: 0 0 3.5em;
+}
+.job h3 {
+	color: #544b43;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 2em;
+}
+.job ul {
+	padding: 0;
+	list-style: none;
+	width: 45%;
+	margin: auto;
+}
+.job ul li {
+	color: #544b43;
+	font-size: 14px;
+}
+
+
+
+
+
+
